@@ -1,5 +1,5 @@
-ipykernel
-ipython
+#ipykernel
+#ipython
 jedi
 jsonschema
 jsonschema-specifications
