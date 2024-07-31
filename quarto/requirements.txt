@@ -4,7 +4,7 @@ jedi
 jsonschema
 jsonschema-specifications
 #jupyter_client
-jupyter_core
+#jupyter_core
 matplotlib
 matplotlib-inline
 quarto
