@@ -3,7 +3,7 @@ ipython
 jedi
 jsonschema
 jsonschema-specifications
-jupyter_client
+#jupyter_client
 jupyter_core
 matplotlib
 matplotlib-inline
