@@ -1,0 +1,6 @@
+jedi
+jsonschema
+jsonschema-specifications
+matplotlib
+matplotlib-inline
+quarto
