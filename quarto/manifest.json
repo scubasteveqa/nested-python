@@ -5,7 +5,7 @@
     "appmode": "quarto-static"
   },
   "quarto": {
-    "version": "1.5.54",
+    "version": "1.4.514",
     "engines": [
       "jupyter"
     ]
