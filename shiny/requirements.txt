@@ -1,5 +1,5 @@
 anywidget
 shiny
-shinywidgets
+shinywidgets==0.3.2
 altair
 pandas
