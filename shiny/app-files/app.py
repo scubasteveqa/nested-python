@@ -3,7 +3,7 @@ import pandas as pd
 from shinywidgets import output_widget, render_widget
 from shiny import App, reactive, ui
 
-income_shares = pd.read_csv("data.csv")
+income_shares = pd.read_csv("app-files/data.csv")
 countries = income_shares["Entity"].unique().tolist()
 
 select_countries = {
