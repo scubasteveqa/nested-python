@@ -3,12 +3,7 @@ import pandas as pd
 from shinywidgets import output_widget, render_widget
 from shiny import App, reactive, ui
 
-# Get the directory of the script
-script_dir = os.path.dirname(os.path.abspath(__file__))
-# Path to data.csv relative to the script directory
-data_path = os.path.join(script_dir, "data.csv")
-
-income_shares = pd.read_csv(data_path)
+income_shares = pd.read_csv("data.csv")
 countries = income_shares["Entity"].unique().tolist()
 
 select_countries = {
